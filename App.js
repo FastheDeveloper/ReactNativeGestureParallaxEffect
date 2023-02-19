@@ -1,12 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,Image } from 'react-native';
-import bg from './assets/images/bg.jpeg'
+import { StyleSheet,  View,} from 'react-native';
+
+import Paralax from '../src/components/Paralax';
+import layer1 from './assets/images/Parallax/2.png'
+import layer2 from './assets/images/Parallax/3.png'
+import layer3 from './assets/images/Parallax/4.png'
+import layer4 from './assets/images/Parallax/5.png'
 export default function App() {
+  
   return (
     <View style={styles.container}>
      
-      <Image source={bg} style={styles.images}/>
-      <StatusBar translucent={true} />
+     {/* <Sensor /> */}
+     {/* <Sensor2 image={bg}/> */}
+     <Paralax layers={[layer1,layer2,layer3,layer4]}/>
     </View>
   );
 }
