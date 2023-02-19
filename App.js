@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet,  View,} from 'react-native';
 
-import Paralax from '../src/components/Paralax';
+import Paralax from './src/components/Paralax';
 import layer1 from './assets/images/Parallax/2.png'
 import layer2 from './assets/images/Parallax/3.png'
 import layer3 from './assets/images/Parallax/4.png'
