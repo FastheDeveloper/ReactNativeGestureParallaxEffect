@@ -6,6 +6,8 @@ import layer1 from './assets/images/Parallax/2.png'
 import layer2 from './assets/images/Parallax/3.png'
 import layer3 from './assets/images/Parallax/4.png'
 import layer4 from './assets/images/Parallax/5.png'
+import Sensor2 from './src/components/Sensor2';
+import Sensor from './src/components/Sensoranimate';
 export default function App() {
   
   return (

@@ -7,7 +7,7 @@ const Paralax = ({ layers }) => {
     <>
       {layers.reverse().map((layer, index) => (
         <Sensor2 key={`layer_${index}`}
-         image={layers} 
+         image={layer} 
          order={index + 1} />
       ))}
     </>

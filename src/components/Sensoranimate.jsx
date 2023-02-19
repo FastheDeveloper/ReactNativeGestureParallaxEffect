@@ -1,5 +1,5 @@
 import { StyleSheet, useWindowDimensions } from 'react-native';
-import bg from './assets/images/bg.jpeg'
+import bg from '../../assets/images/bg.jpeg'
 import Animated,{useAnimatedSensor,SensorType,withTiming,useAnimatedStyle, interpolate} from 'react-native-reanimated';
 const IMAGE_OFFSET=100
 const PI=Math.PI;
